@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="575.0" prefWidth="564.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.email.NewAccount">
+   <children>
+      <Button layoutX="42.0" layoutY="525.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="79.0" text="Login" />
+      <Button layoutX="313.0" layoutY="456.0" mnemonicParsing="false" text="Submit" />
+      <Label layoutX="220.0" layoutY="55.0" text="New Account">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="106.0" layoutY="161.0" text="First Name: " />
+      <Label layoutX="106.0" layoutY="225.0" text="Last Name: " />
+      <Label layoutX="105.0" layoutY="299.0" text="User Name: " />
+      <Label layoutX="109.0" layoutY="363.0" text="Password: " />
+      <PasswordField fx:id="passwordField_password" layoutX="226.0" layoutY="352.0" prefHeight="39.0" prefWidth="227.0" />
+      <TextField fx:id="textField_firstName" layoutX="226.0" layoutY="150.0" prefHeight="39.0" prefWidth="227.0" />
+      <TextField fx:id="textField_lastName" layoutX="225.0" layoutY="214.0" prefHeight="39.0" prefWidth="227.0" />
+      <TextField fx:id="textField_userName" layoutX="225.0" layoutY="288.0" prefHeight="39.0" prefWidth="227.0" />
+   </children>
+</Pane>
